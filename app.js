@@ -42,16 +42,44 @@ console.log (mojeIme5);
 
 let brojVeciOdTri = 5 < 3;
 
-console.log (brojVeciOdTri);
+console.log ("Da li je?",brojVeciOdTri);
 
 const podaci = {
   ime: "Vlado",
   godine: 25,
   ozenjen: false,
+  pol: "Musko",
+  pije: false,
+  pusi: false,
 
 };
 
-console.log (podaci.ime);
+console.log ("Moje ime je:" ,podaci.ime);
+console.log("Imam:", podaci.godine, "godina");
+
+let izjava = "Moje ime je " + podaci.ime + " imam " + podaci.godine + " godina.";
+
+console.log (izjava);
 
 
+let zbir = "25" + 25;
+console.log (zbir);
 
+let izjava2 = `Moje ime je ${podaci.ime} imam ${podaci.godine} godina.`;
+console.log (izjava2);
+
+let niz = [4, 5 , 6, 7,8,9,10];
+
+niz.push(24,25,26);
+
+niz.reverse();
+
+let niz2 = ["cao" , "zdravo" , "zbogom"];
+
+console.log (niz);
+
+console.log (niz2);
+
+let noviNiz = niz.pop();
+console.log (niz);
+console.log (noviNiz);
