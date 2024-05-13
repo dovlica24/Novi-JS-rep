@@ -83,3 +83,15 @@ console.log (niz2);
 let noviNiz = niz.pop();
 console.log (niz);
 console.log (noviNiz);
+
+const Inzenjer = {
+
+ime:"Vlado",
+radniStaz:"5 godina",
+godine:4,
+
+
+
+}
+
+console.log(Inzenjer);
