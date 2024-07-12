@@ -80,7 +80,7 @@ if (number%2==0) {
   console.log(`Broj ${number} je paran`);
 }
 
-else if (number===0) {
+else if (number==0 && number%2==0) {
  
   console.log(`Broj ${number} je nula`);
 }
@@ -98,3 +98,8 @@ else {
  ispitajParnost(34);
  ispitajParnost(39);
  ispitajParnost(0);
+
+
+ //napraviti funkciju koja ce da prima 2 argumenta, prvi ce biti da li je korisnik polozio tipovanje (znaci bice boolean vrednost), a druga vrednost ce biti broj godina. Funkcija ce da ispituje da li je korisnik adekvatan za polaganje voznje. Ako je korisnik polozio tipovanje i ima vise od ili jednako 18 godina onda mozemo da posaljemo poruku (console.log-ujemo) "Korisnik moze da polaze ispit." Ako korisnik nije polozio tipovanje ili nema dovoljno godina mozemo da napisemo poruku "Korisnik nije ispunio uslove za polaganje"
+
+ 
