@@ -1,0 +1,3 @@
+"use strict";
+
+// napraviti niz od 5 objekata (3 zene i 2 muskarca). Svaki objekat bi trebao da sadrzi ime,prezime,godine,pol i id (prvi id:1, drugi id:2, treci id:3....). Sa metodom filter cu prvo izvuci sve clanove koji su zenski. Sa metodom find izvuci korisnika koji ima id:4. Sa metodom forEach cu console.log(Sva imena iz objekata); --> Sa petljom for obicno cu proci za svaki objekat iz niza i napisati poruku "Osoba ime je pol i id osobe je id".
